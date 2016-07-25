@@ -12,28 +12,44 @@ url: "http://www.jack003.com"
 # author
 author:
   name: ''
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
+  first_name: 'Hermes'
+  last_name: 'No Worry'
+  email: 'dev@hermesnoworry.com'
+  facebook_username: 'hermesnoworry'
+  github_username: 'hermeshelp'
   head_img: 'static/img/landing/Jack.jpg'
 
 # social link
-jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
-  description: 'Painter.'
-  link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+johnny:
+  first_name: 'Johnny'
+  last_name: 'Skandalakis'
+  description: 'Dev'
+  link: 'skandalakis.net'
+  email: 'john@skandalakis.net'
+  
+# social link
+tito:
+  first_name: 'Tito'
+  last_name: 'Nieves'
+  description: 'Dev'
+  link: '/'
+  email: 'hnieves3@gatech.edu'
+  
+# social link
+ankita:
+  first_name: 'Ankita'
+  last_name: 'Lamba'
+  description: 'Dev'
+  link: '/'
+  email: 'alamba3@gatech.edu'
 
 # landing page
 landing:
   home: 'Home'
   about: 'About'
-  career: 'Career'
-  skills: 'Skills'
-  projects: 'Project'
+  career: 'Timeline'
+  skills: 'Features'
+  projects: 'temp'
   blog: 'Blog'
   contact: 'Link'
 
