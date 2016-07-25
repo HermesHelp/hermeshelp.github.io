@@ -1,28 +1,28 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "HermesNoWorries"
   },
   "nav":{
     "home": "Home",
     "about_me": "About",
-    "skills": "Skills",
-    "projects": "Projects",
-    "career": "Career",
+    "skills": "Timeline",
+    "projects": "Status",
+    "career": "Features",
     "blog": "Blog",
-    "contact": "Link"
+    "contact": "Contact"
   },
   "about_me":{
-    "about_me": "About Me",
-    "des": "I am a Python engineer with website development, automation Ops and writing scripts experience. Life is a continuous learning process, so work makes me more rigorous, travel makes my life more colorful. I can make lots of friends when I coding and travel."
+    "about_me": "About Us",
+    "des": "Herme's app to notify the people you trust when something isn't right.  On average x% americans live alone and inserts stats heres. We aim to increase the confort of friends and family by providing them data and alerts concerning their loved ones."
   },
   "skills":{
-    "my_skills": "My Skills"
+    "my_skills": "Status"
   },
   "projects":{
-    "my_projects": "My Projects",
-    "saplatform": "Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.",
-    "jalpc": "Jalpc is a simple, beautiful and swift theme for Jekyll. It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.",
-    "angularjs": "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well."
+    "my_projects": "Features",
+    "Accelerometer Data":"By leveraging on wearables technology, we are able to determine if you have fallen and need assistance."
+    "Health Data":"By leveraging the heart beat monitors in current wearable technology we are able to determine abnormalities that may be reason for concern."
+    "GPS Awareness": "With the help of GPS, we can let loved ones know your approximate location at the time of an incident."
   },
   "career":{
     "my_career": "My Career",
