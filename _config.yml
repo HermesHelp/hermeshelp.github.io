@@ -20,12 +20,31 @@ author:
   head_img: 'static/img/landing/Jack.jpg'
 
 # social link
-johnny:
-  first_name: 'Johnny'
-  last_name: 'Skandalakis'
-  description: 'Dev'
-  link: 'skandalakis.net'
-  email: 'john@skandalakis.net'
+team: 
+ - first_name: 'Johnny'
+   last_name: 'Skandalakis'
+   description: 'Dev'
+   link: 'skandalakis.net'
+   email: 'john@skandalakis.net'
+   facebook_username: 'hermesnoworry'
+   github_username: 'hermeshelp'
+   head_img: 'static/img/landing/Jack.jpg'
+ - first_name: 'Ankita'
+   last_name: 'Lamba'
+   description: 'Dev'
+   link: 'skandalakis.net'
+   email: 'alamba3@gatech.edu'
+   facebook_username: 'hermesnoworry'
+   github_username: 'hermeshelp'
+   head_img: 'static/img/landing/Jack.jpg'
+ - first_name: 'Tito'
+   last_name: 'Nieves'
+   description: 'Dev'
+   link: 'skandalakis.net'
+   email: 'hnieves3@gatech.edu'
+   facebook_username: 'hermesnoworry'
+   github_username: 'hermeshelp'
+   head_img: 'static/img/landing/Jack.jpg'
   
 # social link
 tito:
@@ -33,7 +52,7 @@ tito:
   last_name: 'Nieves'
   description: 'Dev'
   link: '/'
-  email: 'hnieves3@gatech.edu'
+  email: 
   
 # social link
 ankita:
@@ -41,7 +60,7 @@ ankita:
   last_name: 'Lamba'
   description: 'Dev'
   link: '/'
-  email: 'alamba3@gatech.edu'
+  email: 
 
 # landing page
 landing:
