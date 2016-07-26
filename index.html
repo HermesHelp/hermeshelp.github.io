@@ -76,7 +76,10 @@ permalink: /
                 <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
             </div>
         </div>
+        
+        
         <div class="row">
+            
             <!-- python -->
             <div class="col-sm-2 wow fadeInLeft">
                 <div class="team-member">
@@ -94,6 +97,7 @@ permalink: /
                 </div>
             </div>
             <!-- avatar -->
+            {% for members in site.team %}
             <div class="col-sm-4">
                 <div class="team-member wow zoomIn">
                     <img src="{{ site.author.head_img | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt="">
@@ -110,6 +114,7 @@ permalink: /
                     </ul>
                 </div>
             </div>
+            {% endfor %}
             <!-- html -->
             <div class="col-sm-2 wow fadeInRight">
                 <div class="team-member">
@@ -134,6 +139,7 @@ permalink: /
                 </span></p>
             </div>
         </div>
+        
     </div>
 </section>
 
