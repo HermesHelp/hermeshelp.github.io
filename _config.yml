@@ -71,6 +71,14 @@ timeline:
    date: Summer 2016
    green: iOS
    
+features:
+ - name: iOS MVP
+   p: 40
+ - name: Heart Data
+   p: 70
+ - name: Data Analytics
+   p: 10
+   
 # my projects
 project:
   saplatform:
