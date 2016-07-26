@@ -24,12 +24,6 @@ permalink: /
                         <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li>
                         <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
                         <li><a class="page-scroll" href="#contact"><span data-i18n="nav.contact">{{ site.landing.contact }}</span></a></li>
-                        <li>
-                            <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
-                        </li>
-                        <li>
-                            <a class="btn btn-sm set_cn"><img src="{{"static/img/flags/China.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
-                        </li>
 
                     </ul>
                 </div>
@@ -148,7 +142,7 @@ permalink: /
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1><span data-i18n="career.my_career">My Career</span></h1>
+                <h1><span data-i18n="career.my_career">Timeline</span></h1>
             </div>
         </div>
         <div class="row features-block">
@@ -184,58 +178,26 @@ permalink: /
         <div class="row">
             <div class="col-lg-12 text-center" id="i18_skills">
                 <div class="navy-line"></div>
-                <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
+                <h1><span data-i18n="skills.my_skills">Upcoming Features</span></h1>
             </div>
         </div>
         <div class="row features-block">
+                
+          {% for feature in site.features %}
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Python</p>
+              <p>{{ feature.name }}</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
-                    <div style="width: 85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                        <span class="sr-only">85% Complete (success)</span>
+                    <div style="width: {{ feature.p }}%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="{{ feature.p }}" role="progressbar" class="progress-bar">
+                        <span class="sr-only">{{ feature.p }}% Complete (success)</span>
                     </div>
                 </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>HTML</p>
-            </div>
-            <div class="col-lg-7 features-text wow fadeInLeft">
-                <div class="progress progress-bar-default">
-                    <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="65" role="progressbar" class="progress-bar">
-                        <span class="sr-only">65% Complete (success)</span>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Linux/Shell</p>
-            </div>
-            <div class="col-lg-7 features-text wow fadeInLeft">
-                <div class="progress progress-bar-default">
-                    <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">
-                        <span class="sr-only">80% Complete (success)</span>
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>AngularJS</p>
-            </div>
-            <div class="col-lg-7 features-text wow fadeInLeft">
-                <div class="progress progress-bar-default">
-                    <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">
-                        <span class="sr-only">80% Complete (success)</span>
-                    </div>
-                </div>
-            </div>
-          </div>
+          {% endfor %}
+          
         </div>
     </div>
 <br><br><br>
