@@ -36,7 +36,7 @@ team:
    email: 'alamba3@gatech.edu'
    facebook_username: 'hermesnoworry'
    github_username: 'hermeshelp'
-   head_img: 'static/img/landing/Jack.jpg'
+   head_img: 'static/img/landing/Hermes-Ankita.jpg'
  - first_name: 'Tito'
    last_name: 'Nieves'
    description: 'Dev'
@@ -44,7 +44,7 @@ team:
    email: 'hnieves3@gatech.edu'
    facebook_username: 'hermesnoworry'
    github_username: 'hermeshelp'
-   head_img: 'static/img/landing/Jack.jpg'
+   head_img: 'static/img/landing/Hermes-Tito.jpg'
   
 # social link
 tito:
