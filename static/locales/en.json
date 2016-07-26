@@ -20,9 +20,9 @@
   },
   "projects":{
     "my_projects": "Features",
-    "Accelerometer Data":"By leveraging on wearables technology, we are able to determine if you have fallen and need assistance."
-    "Health Data":"By leveraging the heart beat monitors in current wearable technology we are able to determine abnormalities that may be reason for concern."
-    "GPS Awareness": "With the help of GPS, we can let loved ones know your approximate location at the time of an incident."
+    "Accelerometer Data":"By leveraging on wearables technology, we are able to determine if you have fallen and need assistance.",
+    "Health Data":"By leveraging the heart beat monitors in current wearable technology we are able to determine abnormalities that may be reason for concern.",
+    "GPS Awareness": "With the help of GPS, we can let loved ones know your approximate location at the time of an incident.",
   },
   "career":{
     "my_career": "My Career",
