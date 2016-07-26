@@ -56,12 +56,20 @@ landing:
 timeline:
  - time-item: first code demo!
    description: We are proud to have launched out first demo. People love the idea and are impressed by the functionality!
+   date: Fall 2015
+   green: Android
  - time-item: CIC, Georgia Institute of Technology
    description: We won second place in the CIC out of 36 teams! this is proof that people like our app!
+   date: Spring 2016
+   green: Android
  - time-item: New Android Features!
    description: The app now monitors movement after an incident and cancels the notification process if the user is moving. This greatly reduces false positives!
+   date: Summer 2016
+   green: Android
  - time-item: iOS Version Under Way!
    description: We are working hard at getting the iOS version up and running so we can annouce our MVP.
+   date: Summer 2016
+   green: iOS
    
 # my projects
 project:
